@@ -1,7 +1,7 @@
-// import Image from "next/image";
+import { SearchBar } from './components/search-bar'
 
 export default function Home() {
+  
   return (
-    <h1 className="font-bold p-5">Hi from home!</h1>
-  )
+    <SearchBar defaultValue=""/>)
 }
